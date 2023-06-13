@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test-anagram": "node ./01-js/easy/test-anagram.js",
-    "test-expenditure-analysis": "node ./01-js/easy/test-expenditure-analysis.js"
+    "test-expenditure-analysis": "node ./01-js/easy/test-expenditure-analysis.js",
+    "test-palindrome": "node ./01-js/medium/test-palindrome.js",
+    "test-times": "node ./01-js/medium/test-times.js"
   },
   "author": "",
   "license": "ISC"

@@ -7,6 +7,11 @@
 */
 
 function isPalindrome(str) {
+  for (var i=0; i<=str.length/2; i++) {
+    if (str.charAt(i).toLowerCase() != str.charAt(str.length-1-i).toLowerCase()) {
+      return false
+    }
+  }
   return true;
 }
 
